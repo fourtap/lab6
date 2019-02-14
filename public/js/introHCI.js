@@ -27,7 +27,7 @@ function addProjectDetails(e) {
 	var idNumber = projectID.substr('project'.length);
 
 	console.log("User clicked on project " + idNumber);
-	URL = 'http://localhost:3000/project/'+ idNumber;
+	URL = 'https://lab6-x4duan.herokuapp.com/project'+ idNumber;
 	console.log(URL);
 		$.get(URL,callBackFn);
 }
